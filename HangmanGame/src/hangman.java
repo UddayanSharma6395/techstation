@@ -31,7 +31,7 @@ public class hangman
             {
                 c[i]='#';
             }
-            System.out.println("MAKE A CHOICE");
+            
             System.out.println("THERE ARE ONLY TWO HINTS AVAILABLE \nUSING A HINT OR WRONG GUESSES WILL REDUCE YOUR LIFE BY ONE");
             System.out.println("1--> GUESS THE LETTER");
             System.out.println("2--> HINT 1");
@@ -45,6 +45,7 @@ public class hangman
                     System.out.print("♥");
                 }
                 System.out.println("");
+                System.out.println("MAKE A CHOICE");
                 int ch=sc.nextInt();
                 System.out.println(c);
                 switch(ch)
