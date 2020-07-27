@@ -61,6 +61,7 @@ public class tictactoe
             }catch(Exception e)
             {
                 System.out.println("invalid input: Re-enter slot number");
+                sc.next();
                 continue;
             }
             if(board[slot].equals(" "))
